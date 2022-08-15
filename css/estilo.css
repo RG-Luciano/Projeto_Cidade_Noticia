@@ -89,6 +89,12 @@ body.fotos #navegacao a#fotos{
     float: left;
     margin:0 0 20px -745px;
 }
+h2{
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
 .caixa{
     margin: 10px 0;
     padding: 5px 0 5px 0;
@@ -118,6 +124,7 @@ label{
     cursor: pointer;
 }
 input{
+    width: 150px;
     padding: 5px;
     font-size: 0.9em;
     background-color: #fff;
@@ -128,11 +135,42 @@ input.submit{
     background-color: #b10333;
     border: 2px solid #870529;
 }
-h2{
-    font-size: 1em;
-    background: #294c71;
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+h3{
+  text-transform: uppercase;
+  display: inline;
+  font-size: 0.8em;
+  padding: 3px;  
+}
+.destaque h3{
+    background: #b10333;
     color: #fff;
-    padding: 5px;
+}
+#lista-noticia li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+#lista-noticia li a img{
+    float: left;
+    margin: 5px;
+}
+#lista-noticia li a{
+    text-decoration: none;
+}
+#lista-noticia li a h3{
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;    
+}
+#lista-noticia li a p{
+    font-size: 0.7em
+}
+#lista-noticia li:hover{
+    background: #eee;
 }
 #container-rodape{
     background:  #294c71;

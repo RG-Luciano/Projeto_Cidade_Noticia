@@ -7,9 +7,9 @@
         <link rel="stylesheet" type="text/css" href="css/estilo.css">
         <title>Notícia Cidade - Seu Site de Notícias</title>
     </head>
-    <body class="brasil">
-        <div id="container">
-            <div id="topo">
+    <body id="duas-colunas" class="brasil">
+        <div id="container"><!--Inicio container-->
+            <div id="topo"><!--Inicio Topo-->
                 <h1 class="logo">Notícias Cidade</h1>
                 <ul id="navegacao">
                     <li class="primeiro">
@@ -19,7 +19,7 @@
                         <a id="brasil" href="brasil.html">brasil</a>
                     </li>
                     <li>
-                        <a id="internacional" href="internacional.html">internacional</a>
+                        <a id="internacional" href="internacional.html">Internacional</a>
                     </li>
                     <li>
                         <a id="economia" href="economia.html">Economia</a>
@@ -35,7 +35,84 @@
                     </li>
 
                 </ul>
-            </div>
+            </div><!--fim topo-->
+            <div id="conteudo"><!--Início conteudo-->
+                <div id="primario"><!--Inicio Primario -->
+                    <div class="caixa destaque">
+                        <h2>Destaque</h2>
+                        <div class="caixa-conteudo">
+                            <h3>Nova Legislação</h3>
+                            <img class="imagem-principal" src="./img/taxi.jpg" alt="img" width="100%">
+                            <p>Espaço reservado para texto. </p>
+                            <a href="https://www.google.com/">Leia mais!</a>
+                        </div>
+                    </div>
+                    <div class="caixa">
+                        <h2>Mundo</h2>
+                        <div class="caixa-conteudo">
+                            <ul id="lista-noticia">
+                                <li>
+                                    <a href="">
+                                        <img src="./img/tecnologia.jpg" alt="img" width="80">
+                                        <h3>Novas Tecnologias</h3>
+                                        <p>Espaço reservado para texto...</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="./img/tecnologia.jpg" alt="img" width="80">
+                                        <h3>Novas Tecnologias</h3>
+                                        <p>Espaço reservado para texto...</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="./img/tecnologia.jpg" alt="img" width="80">
+                                        <h3>Novas Tecnologias</h3>
+                                        <p>Espaço reservado para texto...</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div><!--fim primario-->
+                
+                <div id="lateral"><!--inicio lateral-->
+                    <div class="caixa">
+                        <h2>Entrevistas</h2>
+                        <div class="caixa-conteudo">
+                            <ul>
+                                <li><a href="https://www.google.com/">José Almeida</a></li>
+                                <li><a href="https://www.google.com/">Felipe Silva</a></li>
+                                <li><a href="https://www.google.com/">Renato Rodrigres</a></li>
+                                <li><a href="https://www.google.com/">Abelardo Silveira</a></li>
+                                <li><a href="https://www.google.com/">Andre Carlos</a></li>
+                                <li><a href="https://www.google.com/">Marcio Mello</a></li>
+                                <li><a href="https://www.google.com/">João Pedro</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="caixa">
+                        <h2>News</h2>
+                        <div class="caixa-conteudo">
+                            <form action="">
+                                <div>
+                                    <label for="email"> Email</label>
+                                    <input type="text" name="email" id="email" placeholder="E-mail">
+                                </div>
+                                <div>
+                                    <input class="submit" type="submit" value="cadastrar" >
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div> <!--fim lateral-->
+            </div><!--fim conteúdo-->
+        </div><!--fim container-->
+        <div id="container-rodape" style="clear: both;">
+            <div id="rodape">&copy; Copyright 2000-2022 Notícias cidade</div>
         </div>
     </body>
 </html>
