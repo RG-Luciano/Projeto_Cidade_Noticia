@@ -13,7 +13,7 @@ body{
 #topo{
     height: 150px;
     background: url(../img/detalhe-topo.png) no-repeat right top;
-    padding-top: 25px;
+    padding-top: 25px; 
 }
 .logo{
   width: 152px;
@@ -98,7 +98,7 @@ h2{
 .caixa{
     margin: 10px 0;
     padding: 5px 0 5px 0;
-    background: #f3f3f3 url(../img/fundo-caixa.png);
+    background: #f3f3f3;
 }
 .caixa-conteudo{
     background: #fff;
